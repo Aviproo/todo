@@ -1,9 +1,20 @@
 .body {
   padding: 10px;
   margin: 10px;
-
+  border: 2px solid rgba(0, 0, 0, 0.111);
   text-align: center;
+  border-radius: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
 }
-/* .item {
-  width: 100px;
-} */
+.item {
+  border: 1px solid rgba(0, 0, 0, 0.111);
+  background-color: rgba(214, 227, 214, 0.258);
+  margin: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 10px;
+}
+.item button {
+  margin: 10px;
+}

@@ -5,7 +5,7 @@ import ShowItem from "../components/ShowItem";
 import { MongoClient } from "mongodb";
 
 function Home(props) {
-  console.log(props.todoWork);
+  setTimeout(() => localStorage.setItem("work", ""), 1000);
   return (
     <Fragment>
       <Head>
