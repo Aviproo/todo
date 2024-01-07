@@ -5,3 +5,16 @@
   padding: 10px;
   text-align: center;
 }
+.completed {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: green;
+  border: 0;
+  color: white;
+
+  border-radius: 10px;
+}
+.completed h5 {
+  color: white;
+}

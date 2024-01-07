@@ -20,7 +20,7 @@ function TodayItem(props) {
         <h1>Today Task</h1>
         <h2>
           <input
-            placeholder="Add Work"
+            placeholder="Add Task"
             ref={taskRef}
             value={enteredData}
             onChange={onchangeHandler}

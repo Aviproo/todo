@@ -21,7 +21,7 @@ function ShowItem(props) {
 
   async function deleteHandler(id) {
     const response = await fetch("api/hello", {
-      method: "DELETE",
+      method: "DELETe",
       body: JSON.stringify(id),
       headers: {
         "Content-Type": "application/json",
@@ -30,6 +30,14 @@ function ShowItem(props) {
     const data = await response.json();
     location.reload();
     alert(data.message);
+
+    // const addCompleted = await fetch("api/hello", {
+    //   method: "POST",
+    //   body: JSON.stringify(id),
+    //   headers: {
+    //     "Content-Type": "application/json",
+    //   },
+    // });
   }
   return (
     <>
@@ -45,7 +53,7 @@ function ShowItem(props) {
                 </button>
 
                 <button onClick={() => deleteHandler({ work: item.work })}>
-                  Delete
+                  Complete
                 </button>
               </h2>
             </div>
